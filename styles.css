@@ -1,0 +1,65 @@
+body {
+	background: black;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	height: 50px;
+	width: 50px;
+}
+
+.postcard-header h1 {
+	width: 330px;
+	margin: 8px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0px;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+/* input {
+	border: none;
+	border-bottom: 1px solid #0000;
+	margin-bottom: 7px;
+} */
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: #c0c0c0;
+	padding: 1px;
+}
+
+.sin-bordes {
+	border: none; /* Remueve todos los bordes */
+	border-bottom: 1px solid #c0c0c0; /* Añade un borde de 1px en la parte inferior */
+	outline: none; /* Remueve el resaltado al enfocar el input */
+	margin-bottom: 10px;
+}
